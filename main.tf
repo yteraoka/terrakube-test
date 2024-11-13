@@ -18,7 +18,7 @@ output "random2" {
   value = random_string.random2.result
 }
 
-resource "random_string" "random2" {
+resource "random_string" "random3" {
   length           = 16
   special          = true
   override_special = "/@£$"
